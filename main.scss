@@ -21,6 +21,11 @@ $shadow: 6px 6px 12px #111;
 html {
   font-size: 16px;
 }
+@media (max-width: 575px) {
+  html {
+    font-size: 14px;
+  }
+}
 a:hover {
   text-decoration: none;
 }
@@ -68,6 +73,7 @@ a:hover {
   position: absolute;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   bottom: 0;
   left: 0;
   width: 100%;
