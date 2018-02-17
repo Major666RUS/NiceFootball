@@ -1,0 +1,21 @@
+{
+  "name": "nicefootball",
+  "version": "1.0.0",
+  "description": "football",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Falin",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
