@@ -15,14 +15,14 @@ $secondFont: Acme, sans-serif;
 
 .wrapper {
   min-height: 100vh;
-  background: url('/img/wrapper-bg.jpg') top center no-repeat #111;
+  background: url('../img/wrapper-bg.jpg') top center no-repeat #111;
   font-family: $font;
   color: #fff;
 }
 .header {
   height: 300px;
   box-shadow: 6px 0px 12px 0px #111;
-  background: url('/img/header.jpg') center center no-repeat;
+  background: url('../img/header.jpg') center center no-repeat;
   background-size: cover;
   &_logo {
     font-family: $secondFont;
